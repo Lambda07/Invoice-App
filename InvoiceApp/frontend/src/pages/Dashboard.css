@@ -1,0 +1,85 @@
+/* Add this CSS to your existing file or create a new file with this content */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f5f9; /* Light blue background color */
+  margin: 0;
+}
+
+.Dashboard {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center; /* Light blue text color */
+}
+
+a {
+  color: #3498db; /* Light blue link color */
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: small; /* Make the link text bold */
+}
+
+a:hover {
+  color: #2980b9; /* Darker blue color on hover for the link */
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px; /* Increase padding for rows */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 11px;       
+  /* my changes */
+}
+span {
+  font-size: 14px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"] {
+  padding: 0px; /* Adjust padding for inputs */
+  width: 60%; /* Adjust width as needed */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+label {
+  color: rgb(201, 201, 201); /* Gray label text color */
+}
+
+select {
+  padding: 3px; /* Adjust padding for selects */
+  width: 100%; /* Adjust width as needed */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+th {
+  background-color: #007bff; /* Light blue header background color */
+  color: #fff; /* White header text color */
+}
+
+tr:hover {
+  background-color: #e1f1ff; /* Light blue hover background color */
+}

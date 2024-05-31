@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+// your code goes here
+int t;
+cin >> t;
+while (t--) {
+  int a, b, c;
+  cin >> a >> b >> c;
+  int res = a;
+  res += b / 3;
+  b %= 3;
+  if (b != 0 && (b + c) < 3) {
+   cout << -1 << endl;
+   continue;
+  }
+  res += (b + c) / 3;
+  if ((b + c) % 3 != 0)
+   res++;
+  cout << res << endl;
+}
+return 0;
+}

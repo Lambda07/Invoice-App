@@ -1,0 +1,61 @@
+/* In your CSS file or style tag */
+
+.update-invoice-container {
+  max-width: 400px;
+  margin: 2% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  padding: 3%;
+  color: #333;
+}
+
+.field-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.field-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.field-info {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #478fee;
+  color: white;
+  padding: 10px 15px;
+  margin: auto 4% auto auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #2c80ee;
+}
+
+.delete-button {
+  background-color: #ee4747;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  background-color: #ee2c2c;
+}
